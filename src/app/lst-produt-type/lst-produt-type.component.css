@@ -1,0 +1,13 @@
+.mat-list-icon {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+a {
+    text-decoration-line: none;
+    padding-left: 0.2rem;
+    color: #788692;
+}
+
+.mat-list-item:hover{
+    background-color: #f9f5f5;
+}

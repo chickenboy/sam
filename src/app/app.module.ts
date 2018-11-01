@@ -8,14 +8,20 @@ import { HttpModule } from '@angular/http';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+
 
 import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
 import { MenuComponentComponent } from './menu-component/menu-component.component';
-import {MatMenuModule} from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { FollowerComponent } from './follower/follower.component';
+import { LstProdutTypeComponent } from './lst-produt-type/lst-produt-type.component';
+
+import { SliderModule } from 'angular-image-slider';
 
 
 @NgModule({
@@ -26,6 +32,8 @@ import { FollowerComponent } from './follower/follower.component';
     HomeComponent,
     AboutComponent,
     FollowerComponent,
+    LstProdutTypeComponent,
+    SliderModule
   ],
   imports: [
     BrowserModule,
@@ -40,7 +48,9 @@ import { FollowerComponent } from './follower/follower.component';
       { path : 'about', component : AboutComponent},
       { path : 'follower', component : FollowerComponent}
     ]),
-    MatListModule
+    MatListModule,
+    MatSidenavModule,
+    MatIconModule
   ],
   providers: [
     UserDataSourceService
