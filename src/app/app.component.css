@@ -1,0 +1,35 @@
+
+footer .container img {
+    /* width: 140px; */
+    height: auto;
+}
+
+footer .container .copyright {
+    font-size: 0.7rem;
+    /*font-family: serif;*/
+    font-family: "Yu Mincho", YuMincho ,serif;
+}
+
+@media (min-width: 544px) {
+    footer .container {
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: end;
+        align-items: end;
+        background-color: #021642;
+        padding: 0.5rem 0.15rem 0.25rem 0.15rem;
+    }
+    footer .container .footerLogo {
+        text-align: left;
+    }
+    footer .container .copyright {
+        text-align: right;
+        margin-top: 0.5rem;
+    }
+}
+
+.basic-container {
+    padding: 0.75rem;
+    background-color: #4D4D4D;
+}
