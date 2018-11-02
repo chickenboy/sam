@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 import { AppComponent } from './app.component';
@@ -32,8 +33,7 @@ import { SliderModule } from 'angular-image-slider';
     HomeComponent,
     AboutComponent,
     FollowerComponent,
-    LstProdutTypeComponent,
-    SliderModule
+    LstProdutTypeComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +50,9 @@ import { SliderModule } from 'angular-image-slider';
     ]),
     MatListModule,
     MatSidenavModule,
-    MatIconModule
+    MatIconModule,
+    SliderModule,
+    MatGridListModule
   ],
   providers: [
     UserDataSourceService

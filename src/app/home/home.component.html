@@ -3,7 +3,20 @@
         <app-lst-produt-type></app-lst-produt-type>
     </mat-sidenav>
     <mat-sidenav-content>
-        <h3><mat-icon mat-list-icon>new_releases</mat-icon>New arrivals</h3>
-        
+        <!-- Product new arrivals -->
+        <h3><mat-icon mat-list-icon class="new-arrival">new_releases</mat-icon>New arrivals</h3>
+        <angular-image-slider [images]="imagesUrl"></angular-image-slider>
+
+        <!-- Hot product -->
+        <h3 class="space-up-025"><mat-icon mat-list-icon class="whats-hot">whatshot</mat-icon>Hot product</h3>
+        <mat-grid-list cols="3" rowHeight="330px">
+                <mat-grid-tile *ngFor="let tile of tiles">
+                    <img  src="{{tile.imageUrl}}">
+                     <p>Name:  {{tile.name}}</p>
+                     <p>From:  {{tile.from}}</p>
+                     <p>Price: {{tile.price}}</p>
+                </mat-grid-tile>
+        </mat-grid-list>
     </mat-sidenav-content>
   </mat-sidenav-container>
+  

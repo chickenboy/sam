@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     background: #eee;
-    height: 500px;
+    /* height: 500px; */
   }
 
 .mat-sidenav {
@@ -16,3 +16,40 @@
     background: #fff;
 }
 
+h3 {
+    display: inline-block;
+    margin-left: 1.25rem; 
+    color: #da6b63;
+    border-bottom: 1px solid #d2c7c7;
+}
+
+.new-arrival .whats-hot{
+    color: red; 
+    padding-right: 0.2rem
+}
+
+.space-up-025 {
+    margin-top: 2rem;
+}
+
+
+.mat-figure {
+    margin-top: 1rem;
+}
+
+.mat-grid-tile {
+    height: 100%;
+}
+
+/* figure.mat-figure{
+    display: inline-block !important;
+} */
+
+::ng-deep mat-grid-tile.mat-grid-tile .mat-figure  {
+    display: inline-block;
+}
+
+mat-grid-list{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
