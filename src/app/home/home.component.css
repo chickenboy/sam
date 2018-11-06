@@ -9,7 +9,7 @@
   }
 
 .mat-sidenav {
-    width: 25%;
+    width: 20%;
 }
 
 .mat-sidenav-content {
@@ -49,7 +49,54 @@ h3 {
     display: inline-block;
 }
 
-mat-grid-list{
+mat-grid-list {
     margin-left: 2rem;
     margin-top: 1rem;
+}
+
+.subcription-container {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #2262b50f;
+}
+.sub-title {
+    font-size: 0.6rem;
+    font-style: italic;
+}
+
+.subcription-input {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#sub-email::placeholder {
+    font-size: 0.1rem!important;
+    font-style: italic;
+}
+
+#sub-email {
+    width: 20rem !important;
+    margin-right: 1rem
+}
+
+.copyright {
+    text-align: right;
+    margin-top: 0.7rem;
+    font-style: italic;
+    margin-right: 1rem;
+    font-size: .6rem;
+}
+
+.mat-drawer-content {
+    overflow: hidden;
+}
+
+.btn-cart {
+    background-color: brown; 
+    color: white
+}
+
+.btn-view {
+    margin-left:0.4rem;
 }

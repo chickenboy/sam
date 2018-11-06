@@ -7,3 +7,32 @@ button {
 .mat-button{
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
+
+.search-area {
+    /* display: inline-block; */
+    float: right;
+    /* margin-right: 5rem; */
+}
+
+#txt-search {
+    height: 2rem;
+    margin-top: 0.4rem;
+    width: 20rem;
+    padding-left: .2rem;
+    font-size: .9rem;
+
+}
+
+#txt-search::placeholder {
+    font-style: italic;
+    color: gray;
+}
+
+.ico-search {
+    margin-top: 0.4rem;
+    /* margin-bottom: rem; */
+    float: right;
+    margin-right: 3rem;
+    padding: 0.4rem 0.5rem 0.45rem 0.5rem;
+    background-color: #30c730ad;
+}

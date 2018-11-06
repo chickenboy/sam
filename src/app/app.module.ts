@@ -11,6 +11,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatInputModule } from '@angular/material/input';
 
 
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { FollowerComponent } from './follower/follower.component';
 import { LstProdutTypeComponent } from './lst-produt-type/lst-produt-type.component';
 
 import { SliderModule } from 'angular-image-slider';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { SliderModule } from 'angular-image-slider';
     HomeComponent,
     AboutComponent,
     FollowerComponent,
-    LstProdutTypeComponent
+    LstProdutTypeComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -46,13 +49,15 @@ import { SliderModule } from 'angular-image-slider';
     RouterModule.forRoot([
       { path : '', component : HomeComponent},
       { path : 'about', component : AboutComponent},
-      { path : 'follower', component : FollowerComponent}
+      { path : 'follower', component : FollowerComponent},
+      { path : 'detail', component : ProductDetailComponent}
     ]),
     MatListModule,
     MatSidenavModule,
     MatIconModule,
     SliderModule,
-    MatGridListModule
+    MatGridListModule,
+    MatInputModule
   ],
   providers: [
     UserDataSourceService

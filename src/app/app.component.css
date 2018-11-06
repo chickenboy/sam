@@ -1,35 +1,40 @@
 
 footer .container img {
-    /* width: 140px; */
     height: auto;
 }
 
 footer .container .copyright {
     font-size: 0.7rem;
-    /*font-family: serif;*/
     font-family: "Yu Mincho", YuMincho ,serif;
 }
 
 @media (min-width: 544px) {
     footer .container {
-        display: flex;
+        /* display: flex;
         -webkit-justify-content: space-between;
         justify-content: space-between;
         -webkit-align-items: end;
-        align-items: end;
-        background-color: #021642;
-        padding: 0.5rem 0.15rem 0.25rem 0.15rem;
+        align-items: end; */
+        background-color: #5d963f;
+        padding: 1rem 0.15rem 1rem 0.15rem;
+    }
+
+    footer .container::before{
+        background-image: 'http://1bsvml38tw5620snbn2p4xtx.wpengine.netdna-cdn.com/wp-content/themes/agra15/build/images/agra-culture-logo-mark.png';
     }
     footer .container .footerLogo {
         text-align: left;
     }
     footer .container .copyright {
-        text-align: right;
-        margin-top: 0.5rem;
+        text-align: center;
+        margin-top: 0.7rem;
+        font-style: italic;
+        margin-right: 1rem;
+        color: white;
     }
 }
 
 .basic-container {
     padding: 0.75rem;
-    background-color: #4D4D4D;
+    /* background-color: #4D4D4D; */
 }
