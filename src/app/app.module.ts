@@ -24,6 +24,7 @@ import { FollowerComponent } from './follower/follower.component';
 import { LstProdutTypeComponent } from './lst-produt-type/lst-produt-type.component';
 
 import { SliderModule } from 'angular-image-slider';
+import { ImageZoomModule } from 'angular2-image-zoom';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
@@ -57,7 +58,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     MatIconModule,
     SliderModule,
     MatGridListModule,
-    MatInputModule
+    MatInputModule,
+    ImageZoomModule,
   ],
   providers: [
     UserDataSourceService

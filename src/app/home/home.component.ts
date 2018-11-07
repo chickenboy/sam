@@ -21,10 +21,10 @@ export class HomeComponent implements OnInit {
     {name: 'May giat cong thuc 2', from: 'Viet Nam', price: 20000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/bd/30/86/9c0f6cb23a6129c75c7fa1bb64cb167e.jpg'},
     {name: 'May giat cong thuc 3', from: 'Viet Lame', price: 30000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f4/b2/7e/d6f51fa7abb048828d58dccba71186ff.jpg'},
     {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
-    {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
-    {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
-    {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
     {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'}
+    // {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
+    // {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'},
+    // {name: 'May giat cong thuc 4', from: 'Viet Lam', price: 50000, imageUrl: 'https://salt.tikicdn.com/cache/200x200/ts/product/f3/a1/19/29f633be69614e045a84bf8acb65cd83.jpg'}
   ];
   //dataLst : any[]; 
   constructor() { }

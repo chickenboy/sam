@@ -1,3 +1,50 @@
+.example-container {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    /* height: 500px; */
+  }
+
+/* .mat-sidenav {
+    width: 20%;
+} */
+
+h3 {
+    display: inline-block;
+    margin-left: 1.25rem; 
+    color: #da6b63;
+    border-bottom: 1px solid #d2c7c7;
+}
+
+.mat-figure {
+    margin-top: 1rem;
+}
+
+.mat-grid-tile {
+    height: 100%;
+}
+
+/* figure.mat-figure{
+    display: inline-block !important;
+} */
+
+::ng-deep mat-grid-tile.mat-grid-tile .mat-figure  {
+    display: inline-block;
+}
+
+mat-grid-list {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+
+.mat-drawer-content {
+    overflow: hidden;
+}
+
 .example-containerr {
     /* position: absolute; */
     top: 0;
@@ -6,12 +53,20 @@
     right: 0;
     background: red;
     /* height: 500px; */
-  }
+}
 
-  .mat-sidenav {
-    width: 65%;
+.mat-sidenav {
+    width: 55%;
 }
 
 .mat-sidenav-content {
     background: #fff;
+}
+
+.mat-drawer-container{
+    overflow: auto !important;
+}
+
+.mat-drawer {
+    position: relative !important;
 }
