@@ -1,6 +1,7 @@
-<mat-sidenav-container class="example-containerr">
-        <mat-sidenav mode="side" opened>
-            <!-- <mat-list>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened>
+        <!-- <app-lst-produt-type></app-lst-produt-type> -->
+        <!-- <mat-list>
                 <h3 mat-subheader>Folders</h3>
                 <mat-list-item *ngFor="let item of items">
                     <img src="{{item}}" />
@@ -26,18 +27,50 @@
                 <!-- <img [src]="itemSelected" style="width: 80%; "/> -->
                 <img [imageZoom]="itemZoomed" [src]="itemSelected" [style.width.px]="400" [style.height.px]="400">
             </div>
-        </mat-sidenav>
-        <mat-sidenav-content>            
-                <mat-grid-list cols="1" rowHeight="30%">
-                        <mat-grid-tile>
-                            <p>Header</p><br><br><br><br><br>
-                        </mat-grid-tile>
-                        <mat-grid-tile>
-                            <p>Content</p><br><br><br><br><br>
-                        </mat-grid-tile>
-                        <mat-grid-tile>
-                            <p>Cart</p><br><br><br><br><br>
-                        </mat-grid-tile>
-                      </mat-grid-list>
-        </mat-sidenav-content>
-    </mat-sidenav-container>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-card>
+            <mat-card-content>
+                <h3>Điện Thoại iPhone XR (64GB) - Hàng Chính Hãng</h3>
+                <p>Sản phẩm nhập khẩu nguyên khối</p>
+            </mat-card-content>
+        </mat-card>
+        <mat-card>
+            <mat-card-content>
+                    <mat-list>
+                            <mat-list-item *ngFor="let prop of props">
+                              <!-- <mat-icon mat-list-icon>folder</mat-icon> -->
+                              <h4 mat-line>{{prop}}</h4>
+                            </mat-list-item>
+                    </mat-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <mat-card>
+        <mat-card-header class="product-detail-infor">
+                <mat-card-title>Thông tin chi tiết</mat-card-title>
+                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+                <mat-list>
+                        <mat-list-item *ngFor="let prop of props">
+                          <!-- <mat-icon mat-list-icon>folder</mat-icon> -->
+                          <h4 mat-line>{{prop}}</h4>
+                        </mat-list-item>
+                </mat-list>
+        </mat-card-content>
+   </mat-card>
+
+   <mat-card>
+        <mat-card-header class="product-detail-infor">
+                <mat-card-title>Mô tả sản phẩm</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+                <h3>Hãy xem video để có những suy nghĩ</h3>
+                <h3>Hãy xem video để có những suy nghĩ</h3>
+                <h3>Hãy xem video để có những suy nghĩ</h3>
+                <h3>Hãy xem video để có những suy nghĩ</h3>
+                <iframe width="800" height="515" style="margin-left: 20rem;" src="https://www.youtube.com/embed/9m_K2Yg7wGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </mat-card-content>
+   </mat-card>

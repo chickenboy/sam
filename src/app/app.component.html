@@ -10,6 +10,18 @@
 </div>
 <router-outlet></router-outlet>
 <!-- <span class="version-info">Current build: 7.0.1</span> -->
+<div class="subcription-container">
+    <h2>JOIN OUR EAT WELL, BE WELL CULTURE.</h2>
+    <p class="sub-title">Stay up-to-date with our new openings, upcoming events, seasonal spectials, and promotions</p>
+    <div class="subcription-input">
+        <!-- <input type="text" placeholder="Enter your email address"> -->
+        <mat-form-field class="example-full-width" id="sub-email">
+            <input matInput placeholder="Enter your email address" value="" >
+        </mat-form-field>
+        <button mat-stroked-button (click)="comeToHomePage()">Sign me up!</button>
+    </div>
+    <!-- <div class="copyright">Design by @Hellomotor Team</div> -->
+  </div>
 <footer>
   <div class="container">
     <div class="copyright">Design by @Hellomotor Team</div>

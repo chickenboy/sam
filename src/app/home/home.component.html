@@ -13,10 +13,10 @@
         <h3 class="space-up-025"><mat-icon mat-list-icon class="whats-hot">whatshot</mat-icon>Hot product</h3>
         <mat-grid-list cols="3" rowHeight="380px">
                 <mat-grid-tile *ngFor="let tile of tiles">
-                    <a href="detail"><img  src="{{tile.imageUrl}}"></a>                    
+                    <a href="detail"><img  src="{{tile.img_small_size}}"></a>
                      <p>{{tile.name}}</p>
-                     <p>{{tile.from}}</p>
-                     <p>{{tile.price}}</p>
+                     <p>{{tile.nation}}</p>
+                     <p>{{tile.price_sell}}</p>
                      <div class="prd-action">
                         <button mat-stroked-button class="btn-cart">Add to cart</button>
                         <button mat-stroked-button class="btn-view">View</button>
@@ -27,18 +27,3 @@
         <button mat-stroked-button (click)="comeToHomePage()" style="display: block; top:1rem; margin-left: 35rem; font-size: .7rem; margin-bottom: 2rem">Show more>></button>
     </mat-sidenav-content>
   </mat-sidenav-container>
-  <div class="subcription-container">
-    <h2>JOIN OUR EAT WELL, BE WELL CULTURE.</h2>
-    <p class="sub-title">Stay up-to-date with our new openings, upcoming events, seasonal spectials, and promotions</p>
-    <div class="subcription-input">
-        <!-- <input type="text" placeholder="Enter your email address"> -->
-        <mat-form-field class="example-full-width" id="sub-email">
-            <input matInput placeholder="Enter your email address" value="" >
-        </mat-form-field>
-        <button mat-stroked-button (click)="comeToHomePage()">Sign me up!</button>
-    </div>
-    <!-- <div class="copyright">Design by @Hellomotor Team</div> -->
-  </div>
-  
-
-  

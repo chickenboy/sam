@@ -12,6 +12,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
 
 
 import { AppComponent } from './app.component';
@@ -60,6 +61,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     MatGridListModule,
     MatInputModule,
     ImageZoomModule,
+    MatCardModule
   ],
   providers: [
     UserDataSourceService
