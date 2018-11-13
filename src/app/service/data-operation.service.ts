@@ -21,4 +21,9 @@ export class DataOperationService {
   getLstHotProduct(){
     return this.http.get('http://localhost:8080/hot-product');
   }
+
+  // get data product detail
+  getDataProductDetail(id){
+    return this.http.get('http://localhost:8080/detail/'+id);
+  }
 }

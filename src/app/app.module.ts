@@ -49,10 +49,14 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     MatMenuModule,
     MatButtonModule,
     RouterModule.forRoot([
-      { path : '', component : HomeComponent},
-      { path : 'about', component : AboutComponent},
-      { path : 'follower', component : FollowerComponent},
-      { path : 'detail', component : ProductDetailComponent}
+      { path : '', 
+        component : HomeComponent},
+      { path : 'about', 
+        component : AboutComponent},
+      { path : 'follower', 
+        component : FollowerComponent},
+      { path : 'detail/:id',
+        component : ProductDetailComponent}
     ]),
     MatListModule,
     MatSidenavModule,

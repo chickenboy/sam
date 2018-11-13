@@ -7,7 +7,7 @@
                     <img src="{{item}}" />
                 </mat-list-item>
             </mat-list> -->
-            <div class="image-sub-wrapper" style="width: 15%;display: inline-block;">
+            <!-- <div class="image-sub-wrapper" style="width: 15%;display: inline-block;">
                 <span class="sub-item" style="
                                              height: 100%;
                                              cursor: pointer;
@@ -16,19 +16,18 @@
                                              padding: 5px;
                                              display: inline-block;
                                              margin-top: .5rem;
-                                             margin-left: 1rem" *ngFor="let item of items">
-                        <!-- <img src="{{item}}" /> -->
-                        <!-- <img [imageZoom]="itemZoomed" [src]="item" (onClick)="selectImage(item)"> -->
+                                             margin-left: 1rem" *ngFor="let item of product.img_small_size.split(';')">
                         <img [src]="item" (onClick)="selectImage(item)">
                 </span>
-            </div>
-            <div class="zoomContainer" style="display: inline;">
+            </div> -->
+            {{product.img_small_size}}
+            <!-- <div class="zoomContainer" style="display: inline;"> -->
                 <!-- <img [src]="https://salt.tikicdn.com/cache/w1200/ts/product/ed/59/90/dbb02d5332621df9b6632d846236e132.jpg" style="width: 80%; "/> -->
                 <!-- <img [src]="itemSelected" style="width: 80%; "/> -->
-                <img [imageZoom]="itemZoomed" [src]="itemSelected" [style.width.px]="400" [style.height.px]="400">
-            </div>
+                <!-- <img [imageZoom]="itemZoomed" [src]="itemSelected" [style.width.px]="400" [style.height.px]="400">
+            </div> -->
     </mat-sidenav>
-    <mat-sidenav-content>
+    <!-- <mat-sidenav-content>
         <mat-card>
             <mat-card-content>
                 <h3>Điện Thoại iPhone XR (64GB) - Hàng Chính Hãng</h3>
@@ -39,15 +38,15 @@
             <mat-card-content>
                     <mat-list>
                             <mat-list-item *ngFor="let prop of props">
-                              <!-- <mat-icon mat-list-icon>folder</mat-icon> -->
+                              <mat-icon mat-list-icon>folder</mat-icon>
                               <h4 mat-line>{{prop}}</h4>
                             </mat-list-item>
                     </mat-list>
             </mat-card-content>
         </mat-card>
-    </mat-sidenav-content>
+    </mat-sidenav-content> -->
   </mat-sidenav-container>
-  <mat-card>
+  <!-- <mat-card>
         <mat-card-header class="product-detail-infor">
                 <mat-card-title>Thông tin chi tiết</mat-card-title>
                 <mat-card-subtitle>Dog Breed</mat-card-subtitle>
@@ -55,7 +54,7 @@
         <mat-card-content>
                 <mat-list>
                         <mat-list-item *ngFor="let prop of props">
-                          <!-- <mat-icon mat-list-icon>folder</mat-icon> -->
+                          <mat-icon mat-list-icon>folder</mat-icon>
                           <h4 mat-line>{{prop}}</h4>
                         </mat-list-item>
                 </mat-list>
@@ -73,4 +72,4 @@
                 <h3>Hãy xem video để có những suy nghĩ</h3>
                 <iframe width="800" height="515" style="margin-left: 20rem;" src="https://www.youtube.com/embed/9m_K2Yg7wGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </mat-card-content>
-   </mat-card>
+   </mat-card> -->

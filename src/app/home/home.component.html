@@ -13,7 +13,7 @@
         <h3 class="space-up-025"><mat-icon mat-list-icon class="whats-hot">whatshot</mat-icon>Hot product</h3>
         <mat-grid-list cols="3" rowHeight="380px">
                 <mat-grid-tile *ngFor="let tile of tiles">
-                    <a href="detail"><img  src="{{tile.img_small_size}}"></a>
+                    <a href="detail/{{tile.id}}"><img  src="{{tile.img_small_size}}"></a>
                      <p>{{tile.name}}</p>
                      <p>{{tile.nation}}</p>
                      <p>{{tile.price_sell}}</p>
